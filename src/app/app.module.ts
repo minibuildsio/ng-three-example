@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DuckBasicComponent } from './duck-basic/duck-basic.component';
+import { DuckShaderComponent } from './duck-shader/duck-shader.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DuckBasicComponent,
+    DuckShaderComponent
   ],
   imports: [
     BrowserModule,
